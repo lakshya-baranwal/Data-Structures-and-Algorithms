@@ -25,6 +25,15 @@ function<void(int)> series = [&](int x){
    series(x-1);
 };
 
+//Recursive Lambda Example 
+int n; cin >> n;
+
+    auto fib = [&](auto &&self, int n)->long long{
+        if(n <= 1) return n;
+        else return self(self, n-1) + self(self, n-2);
+    };
+ cout << fib(fib, 15) << endl;
+
 //Use of lambda function in custom sorting
 //Custom sorting used in vector<vector<string>> events
 auto lambda = [&](vector<string> s1, vector<string> s2){
