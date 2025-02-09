@@ -1,0 +1,4 @@
+//Important Notes
+Note 1: In graph theory, when you define a graph, a "vertex" is just not a simple thing with a number.
+A "vertex" in graph can also be a state, such as if you playing chess, each vertex is a chess board and if you play a move,
+so the old chess board can connect to a new chess board, etc.
