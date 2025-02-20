@@ -29,6 +29,7 @@ struct CustomHash {
     }
 };
 
+//CustomHash function can be modified in the case of pair<int, int>
 struct PairHash {
     size_t operator()(const pair<int, int>& p) const {
         return CustomHash()(p.first) ^ (CustomHash()(p.second) >> 1);
