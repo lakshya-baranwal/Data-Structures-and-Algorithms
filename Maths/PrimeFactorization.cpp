@@ -1,4 +1,9 @@
 //Prime Factorization of a number N in O(logN). Not considering the precomputation time.
+//Precompute the Smallest Prime Factor (SPF) or Least Prime for each number from 1 to N using the sieve function.
+//SPF is the smallest prime number that divides a given number without leaving a remainder.
+//We can use the precomputed SPF array to find the prime factorization of the given number.
+//We do this by repeatedly dividing the number by its SPF until it becomes 1.
+          
 #include "bits/stdc++.h"
 using namespace std;
 
