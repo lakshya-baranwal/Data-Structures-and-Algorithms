@@ -11,7 +11,7 @@ typedef long long ll;
 #define mod 1000000007
 #define modd 998244353;
 
-vector<int> least_prime(100001, 0); //Least Prime or Smallest Prime Factor
+vector<int> least_prime(100001, 1); //Least Prime or Smallest Prime Factor
 
 vector<int> prime_factorization(int x)
 {
@@ -26,13 +26,11 @@ vector<int> prime_factorization(int x)
 
 void leastPrimeFactor() {
     //Computation of Least Prime Factor upto 1e5 (100000)
-    least_prime[1] = 1;
+    least_prime[0] = 0;
     for (int i = 2; i <= 100000; i++) {
-        if (least_prime[i] == 0) {
-            least_prime[i] = i;
-            if(i > 1000) break;
-            for (int j = i*i; j <= 100000; j += i)
-                if (least_prime[j] == 0)
+        if (least_prime[i] == 1) {
+            for (int j = i; j <= 100000; j += i)
+                if (least_prime[j] == 1)
                     least_prime[j] = i;
         }
     }
