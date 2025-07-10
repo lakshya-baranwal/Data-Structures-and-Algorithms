@@ -1,0 +1,8 @@
+Prime Number Theorem:
+
+Let pi(n) be the number of primes less than or equal to n. Then as n approaches infinity,
+    pi(n) ~ n / ln(n)
+
+That is, the number of primes ≤ n is approximately equal to n divided by the natural logarithm of n.
+Formally:
+    lim (n -> ∞) [pi(n) / (n / ln(n))] = 1
