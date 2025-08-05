@@ -16,8 +16,9 @@ struct Query {
      Odd blocks → sort r in increasing order.
      Even blocks → sort r in decreasing order.
      This creates a Z-shaped (zig-zag) order of queries → hence the name.
+
+     This is an approximate version of Hilbert Ordering 
     */
-    // More about Z-ordering : https://codeforces.com/blog/entry/61203
     
 };
 
