@@ -17,6 +17,7 @@ struct Query {
      Even blocks → sort r in decreasing order.
      This creates a Z-shaped (zig-zag) order of queries → hence the name.
     */
+    // More about Z-ordering : https://codeforces.com/blog/entry/61203
     
 };
 
