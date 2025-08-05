@@ -39,13 +39,6 @@ A collection of DSA solutions in different programming languages, aimed at helpi
 5. Open a pull request
 
 Please ensure to follow coding conventions and add comments.
-
-## Contact
-
-For questions or suggestions, open an issue or contact me:
-
-- **Email**: [omnitrixhunter07@gmail.com]
-
 ---
 
-Happy coding! 🚀
+Happy coding! 
