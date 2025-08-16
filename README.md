@@ -1,6 +1,6 @@
 # Data Structures and Algorithms (DSA)
 
-This repository contains codes and implementations of various things under DSA. 
+This repository contains codes and implementations of various techniques under DSA. 
 
 ## Table of Contents
 
@@ -8,11 +8,10 @@ This repository contains codes and implementations of various things under DSA.
 - [Languages Used](#languages-used)
 - [Topics](#topics)
 - [Contribution Guidelines](#contribution-guidelines)
-- [Contact](#contact)
 
 ## Introduction
 
-A collection of DSA solutions in different programming languages, aimed at helping you learn and practice DSA concepts for coding interviews and problem-solving.
+A collection of competitive programming techniques aimed at helping you learn and revise concepts.
 
 ## Languages Used
 
@@ -29,6 +28,7 @@ A collection of DSA solutions in different programming languages, aimed at helpi
 - Trees
 - Graphs
 - Tries
+- Dynamic Programming
 
 ## Contribution Guidelines
 
