@@ -1,3 +1,13 @@
+// Naive Convolution O(n*n)
+vector<ll> c(n+m-1);
+for(int i = 0; i < n; i++){
+    for(int j = 0; j < m; j++){
+        c[i+j] += a[i]*b[j];
+    }
+}
+
+
+
 // Convolution using FFT
 
 using base = complex<long double>; // complex numbers for FFT
