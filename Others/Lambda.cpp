@@ -48,3 +48,28 @@ auto lambda = [&](vector<string> s1, vector<string> s2){
           
         };
 sort(begin(events), end(events), lambda);
+
+// Using lambda function for calculating subtree size 
+function<void(int, int)> dfs = [&](int u, int p) -> void {
+    sz[u] = 1;
+        
+    for(auto v: adj[u]){
+     if(v == p) continue;
+         dfs(v, u);
+         sz[u] += sz[v];
+    }
+};
+dfs1(0, -1);
+
+
+// Using lambda function to find centroid of a tree
+function<int(int, int, int)> find_centroid = [&](int u, int p, int n) -> int {
+        
+        for(auto v: adj[u]){
+            if(v == p) continue;
+            if(sz[v] > n/2) return find_centroid(v, u, n);
+        }
+        return u;
+    };
+
+    
