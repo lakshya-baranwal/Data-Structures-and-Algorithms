@@ -31,3 +31,14 @@ void coordinateCompress(vector<long long>& a) {
     // Step 3: replace original values
     for (int i = 1; i <= n; i++) a[i] = mp[a[i]];
 }
+
+// Other efficient method
+void coordinateCompress(vector<long long> &a){
+   vector<int> vals = a;
+   sort(vals.begin(), vals.end());
+   vals.erase(unique(vals.begin(), vals.end()), vals.end());
+   for (auto &x : a) {
+      x = lower_bound(vals.begin(), vals.end(), x) - vals.begin();
+   }
+}
+
