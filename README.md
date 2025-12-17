@@ -18,6 +18,7 @@ A collection of competitive programming techniques aimed at helping you learn an
 - Python
 - C++
 - C
+- Go
 
 ## Topics
 
