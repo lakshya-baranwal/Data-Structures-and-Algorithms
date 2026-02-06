@@ -2,3 +2,6 @@
 - Competitive Programmer's Handbook : https://cses.fi/book/book.pdf
 - CSES Problemset : https://cses.fi/problemset/
 - Geeks For Geeks (GFG) : https://www.geeksforgeeks.org/
+- OI-WIKI : https://oi-wiki.org/ (GOLDMINE BUT NEEDS TRANSLATION)
+- AtCoder Editorials are also very good to learn new concepts
+- Codeforces Blogs Collection : https://codeforces.com/blog/entry/91363
